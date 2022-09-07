@@ -5,7 +5,10 @@
   font-family: 'Poppins', sans-serif;
 }
 .margin{
-  margin-top: 10rem;
+  padding-top: 10rem;
+  
+}
+.box{
 }
 .space{
   justify-content: space-between;
@@ -18,10 +21,6 @@
     flex: 0 0 auto !important;
   }
   .margin{
-    margin-top: .5rem;
+    margin-top: 20rem;
   }
-  span{
-    margin-top:12rem;
-  }
-  
 }

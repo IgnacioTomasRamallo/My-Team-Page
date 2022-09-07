@@ -1,8 +1,8 @@
 import './Card.css';
 
-const Card = ({img, name, job}) =>{
+const Card = ({img, name, job, margin}) =>{
     return (
-        
+        <div className={`col-4 box `+ margin} >
             <div className="d-flex justify-content-center">
                 <div className='d-flex flex-column'>
                     <img className='img-fluid'src={img} alt={name}/>
@@ -12,7 +12,7 @@ const Card = ({img, name, job}) =>{
                     <p className='rotate text-uppercase fw-bold'>{job}</p>
                 </div>
             </div>
-        
+        </div>
     );
 };
 
