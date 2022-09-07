@@ -1,0 +1,9 @@
+.width{
+    width: 18rem;
+}
+
+.rotate{
+    transform: rotate(90deg);
+    white-space: nowrap;
+    width: 30px;
+}

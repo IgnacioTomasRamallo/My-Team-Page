@@ -1,0 +1,27 @@
+.pt-serif {
+  font-family: 'PT serif', serif;
+}
+.poppins{
+  font-family: 'Poppins', sans-serif;
+}
+.margin{
+  margin-top: 10rem;
+}
+.space{
+  justify-content: space-between;
+}
+
+
+@media (max-width:767px) {
+  .col-4{
+    width: 50% !important;
+    flex: 0 0 auto !important;
+  }
+  .margin{
+    margin-top: .5rem;
+  }
+  span{
+    margin-top:12rem;
+  }
+  
+}
